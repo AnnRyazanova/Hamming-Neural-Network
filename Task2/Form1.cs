@@ -259,5 +259,78 @@ namespace Task2
 
             }
         }
+
+
+        // ---------------------------------
+        // Оценка зашумленного изображения
+        private void testNoisyImg()
+        {
+            if (pictureBox1.Image != null)
+            {
+                if (hamming != null)
+                {
+                    var percent = 5;
+                    string str = "percent:  index: ,";
+
+                    while(percent <= 100)
+                    {
+                        str += percent.ToString() + "  ";
+                        noisyImage(percent, ref img);
+                        pictureBox2.Image = img;
+                        pictureBox2.Invalidate();
+                        var imgForHamming = transformPicture(img);
+                        var index = hamming.solution(imgForHamming);
+                        if (index == -1)
+                        {
+                            str += index.ToString() + ",";
+                            break;
+                        }
+                        else
+                        {
+                            str += index.ToString() + ",";
+                            percent += 5;
+                        }
+                    }
+
+                    var lines = str.Split(',');
+                    System.IO.File.WriteAllLines(@"D:\MMCS\Учеба\7 семестр\нейронки\Hamming-Neural-Network-master\Hamming-Neural-Network-master\Hamming.txt", lines);
+                    MessageBox.Show("Информация записана в файл");
+                }
+                else
+                    MessageBox.Show("Сначала сеть должна обучиться");
+            }
+            else
+                MessageBox.Show("Загрузите изображение");
+        }
+
+
+        // Зашумление картинки simage на proc процентов
+        private void noisyImage(int proc, ref Bitmap simage)
+        {
+            //var b = (Bitmap)simage.Clone();
+            Random r = new Random();
+            var count = simage.Width * simage.Height;
+            var noisyCount = count * proc / 100;
+
+            for (int i = 0; i < noisyCount; ++i)
+            {
+                var x = r.Next(0, simage.Width);
+                var y = r.Next(0, simage.Height);
+                var c = Color.FromArgb(r.Next(0, 256)); //Color.Black;
+
+                var pixelColor = simage.GetPixel(x, y);
+                while(pixelColor.ToArgb() == c.ToArgb())
+                    c = Color.FromArgb(r.Next(0, 256));
+
+                simage.SetPixel(x, y, c);
+            }
+
+          //  return b;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            testNoisyImg();
+        }
     }
 }

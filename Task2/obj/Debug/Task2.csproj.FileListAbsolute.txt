@@ -34,3 +34,21 @@ D:\MMCS\Учеба\7 семестр\нейронки\Task2\Hamming-Neural-Networ
 D:\MMCS\Учеба\7 семестр\нейронки\Task2\Hamming-Neural-Network\Task2\obj\Debug\Task2.Form1.resources
 D:\MMCS\Учеба\7 семестр\нейронки\Task2\Hamming-Neural-Network\Task2\obj\Debug\Task2.Properties.Resources.resources
 D:\MMCS\Учеба\7 семестр\нейронки\Task2\Hamming-Neural-Network\Task2\obj\Debug\Task2.csproj.GenerateResource.Cache
+C:\Users\aryazanova\Downloads\Hamming-Neural-Network-master\Task2\bin\Debug\Task2.exe.config
+C:\Users\aryazanova\Downloads\Hamming-Neural-Network-master\Task2\obj\Debug\Task2.exe
+C:\Users\aryazanova\Downloads\Hamming-Neural-Network-master\Task2\obj\Debug\Task2.pdb
+C:\Users\aryazanova\Downloads\Hamming-Neural-Network-master\Task2\bin\Debug\Task2.exe
+C:\Users\aryazanova\Downloads\Hamming-Neural-Network-master\Task2\bin\Debug\Task2.pdb
+C:\Users\aryazanova\Downloads\Hamming-Neural-Network-master\Task2\obj\Debug\Task2.csprojResolveAssemblyReference.cache
+C:\Users\aryazanova\Downloads\Hamming-Neural-Network-master\Task2\obj\Debug\Task2.Form1.resources
+C:\Users\aryazanova\Downloads\Hamming-Neural-Network-master\Task2\obj\Debug\Task2.Properties.Resources.resources
+C:\Users\aryazanova\Downloads\Hamming-Neural-Network-master\Task2\obj\Debug\Task2.csproj.GenerateResource.Cache
+D:\MMCS\Учеба\7 семестр\нейронки\Hamming-Neural-Network-master\Hamming-Neural-Network-master\Task2\bin\Debug\Task2.exe.config
+D:\MMCS\Учеба\7 семестр\нейронки\Hamming-Neural-Network-master\Hamming-Neural-Network-master\Task2\obj\Debug\Task2.exe
+D:\MMCS\Учеба\7 семестр\нейронки\Hamming-Neural-Network-master\Hamming-Neural-Network-master\Task2\obj\Debug\Task2.pdb
+D:\MMCS\Учеба\7 семестр\нейронки\Hamming-Neural-Network-master\Hamming-Neural-Network-master\Task2\bin\Debug\Task2.exe
+D:\MMCS\Учеба\7 семестр\нейронки\Hamming-Neural-Network-master\Hamming-Neural-Network-master\Task2\bin\Debug\Task2.pdb
+D:\MMCS\Учеба\7 семестр\нейронки\Hamming-Neural-Network-master\Hamming-Neural-Network-master\Task2\obj\Debug\Task2.csprojResolveAssemblyReference.cache
+D:\MMCS\Учеба\7 семестр\нейронки\Hamming-Neural-Network-master\Hamming-Neural-Network-master\Task2\obj\Debug\Task2.Form1.resources
+D:\MMCS\Учеба\7 семестр\нейронки\Hamming-Neural-Network-master\Hamming-Neural-Network-master\Task2\obj\Debug\Task2.Properties.Resources.resources
+D:\MMCS\Учеба\7 семестр\нейронки\Hamming-Neural-Network-master\Hamming-Neural-Network-master\Task2\obj\Debug\Task2.csproj.GenerateResource.Cache
