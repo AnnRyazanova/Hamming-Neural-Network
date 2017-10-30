@@ -293,7 +293,7 @@ namespace Task2
                     }
 
                     var lines = str.Split(',');
-                    System.IO.File.WriteAllLines(@"D:\MMCS\Учеба\7 семестр\нейронки\Hamming-Neural-Network-master\Hamming-Neural-Network-master\Hamming.txt", lines);
+                    System.IO.File.WriteAllLines(@"D:\MMCS\Учеба\7 семестр\нейронки\Task2\Hamming-Neural-Network\Hamming.txt", lines);
                     MessageBox.Show("Информация записана в файл");
                 }
                 else
